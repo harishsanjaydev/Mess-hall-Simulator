@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class QueueManager : MonoBehaviour
 {   private float spacing =0.6f;
-    private float TotalChecktime=2f;    
+    private float TotalChecktime=1.2f;    
     private float Timer=0f;
     private List<Student> queue = new List<Student>();
     public CounterManagement cManager;
@@ -35,9 +35,17 @@ public class QueueManager : MonoBehaviour
             
         }
     }
-    public void JoinQueue(Student student)
+    public void JoinQueue(Student student,bool isCutter)
     {
+        if (isCutter)
+        {
+            queue.Insert(Random.Range(0,Mathf.Min(3,queue.Count)),student);
+            Debug.Log("CUTTER! Inserted at front. Queue size: " + queue.Count);
+        }
+        else
+        {
         queue.Add(student);
+        }
         Debug.Log(student.studentType + " student joined queue! Total: " + queue.Count);
         int index = queue.Count-1;
         Vector3 slotPosition = transform.position - new Vector3(0,index*spacing,0);

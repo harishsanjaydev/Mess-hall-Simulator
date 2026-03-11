@@ -8,7 +8,9 @@
         [SerializeField]public Transform vegTokenQueue;
         [SerializeField]public Transform nonVegTokenQueue;
         public QueueManager qManager;
-        private float timer=0;  
+        private float timer=0;
+       
+        
         void Start()
         {     
             
@@ -25,6 +27,8 @@
                 student.studentType = studentType; 
                 student.tokenTarget= studentType==Student.StudentType.Veg?vegTokenQueue.position:nonVegTokenQueue.position;
                 student.qManager=qManager;
+                bool isCutter = Random.value < 0.1f; // 10% chance
+                student.isCutter = isCutter;
                 timer=0;
             }
             

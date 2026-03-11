@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::student
   studentType: 1
-  speed: 3
-  tokenTarget: {fileID: 0}
+  speed: 10
+  tokenTarget: {x: 0, y: 0, z: 0}
   qManager: {fileID: 0}
+  CManager: {fileID: 0}

@@ -47,5 +47,8 @@ TagManager:
   - name: Counter
     uniqueID: 263432043
     locked: 0
+  - name: seat
+    uniqueID: 3382227707
+    locked: 0
   m_RenderingLayers:
   - Default

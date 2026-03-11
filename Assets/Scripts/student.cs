@@ -11,6 +11,7 @@
         public CounterManagement CManager;
         private bool hasJoinedQueue = false;
         private bool hasJoinedCounter =false;
+        public bool isCutter = false;
         void Start()
         {
             
@@ -26,7 +27,7 @@
             if (!hasJoinedQueue && Vector3.Distance(transform.position, tokenTarget) < 0.1f)
             {
                     hasJoinedQueue=true;
-                    qManager.JoinQueue(this);
+                    qManager.JoinQueue(this,isCutter);
                           
             }
             if (hasJoinedQueue && !hasJoinedCounter && CManager!=null&&Vector3.Distance(transform.position, tokenTarget) < 0.1f)

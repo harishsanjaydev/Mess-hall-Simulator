@@ -52,6 +52,8 @@
     <Compile Include="Assets/Scripts/CounterManagement.cs" />
     <Compile Include="Assets/Scripts/StudentSpawner.cs" />
     <Compile Include="Assets/Scripts/student.cs" />
+    <Compile Include="Assets/Scripts/seat.cs" />
+    <Compile Include="Assets/Scripts/SeatingManager.cs" />
     <Compile Include="Assets/Scripts/QueueManager.cs" />
   </ItemGroup>
   <ItemGroup>

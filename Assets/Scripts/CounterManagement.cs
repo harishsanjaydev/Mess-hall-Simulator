@@ -6,6 +6,7 @@ public class CounterManagement : MonoBehaviour
     [SerializeField]private Transform NVplate;
     [SerializeField]private Transform NVfood;
     [SerializeField]private Transform NVextras;
+    [SerializeField]public Transform queueStartpoint;
     private bool stop1Occupied=false;
     private bool Stop2Occupied=false;
     private bool Stop3Occupied=false;
@@ -18,6 +19,8 @@ public class CounterManagement : MonoBehaviour
     private float spacing = 0.8f;
     private float stopTimer = 0f;
     private float stopDuration = 2f;
+    public string seatTag;
+    public SeatingManager seatManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -48,7 +51,7 @@ public class CounterManagement : MonoBehaviour
         }
         else{
         int index = Waitingq.Count-1;
-        Vector3 slotPosition = transform.position - new Vector3(0,index*spacing,0);
+        Vector3 slotPosition = queueStartpoint.position - new Vector3(0,index*spacing,0);
         student.tokenTarget=slotPosition;}
     }
     public void MovetoStop1(Student student)
@@ -58,30 +61,47 @@ public class CounterManagement : MonoBehaviour
         Waitingq.RemoveAt(0);
         student.tokenTarget=NVplate.position;
     }
+    void ShiftQueue()
+{
+    for (int i = 0; i < Waitingq.Count; i++)
+    {
+        Vector3 slotPosition = queueStartpoint.position - new Vector3(0, i * spacing, 0);
+        Waitingq[i].tokenTarget = slotPosition;
+    }
+}
     public void AdvanceStudents()
     {
+         
         if (StudentatStop3 != null)
         {
-            Destroy(StudentatStop3.gameObject);
+            seat Seatv=seatManager.GetRandomSeat();
+            if (Seatv != null)
+            {
+                Seatv.isOccupied=true;
+                StudentatStop3.tokenTarget=Seatv.transform.position;
+            }
+            StudentatStop3 = null;
             StudentatStop3=null;
-            Stop3Occupied=false;
+           
         }
-        if (StudentatStop2 != null&& !Stop3Occupied)
+        if (StudentatStop2 != null&& StudentatStop3==null)
         {
             StudentatStop3=StudentatStop2;
             StudentatStop2=null;
-            Stop3Occupied=true;
-            Stop2Occupied=false;
             StudentatStop3.tokenTarget=NVextras.position;
         }
-        if(StudentatStop1!=null && !Stop2Occupied)
+        if(StudentatStop1!=null && StudentatStop2==null)
         {
             StudentatStop2=StudentatStop1;
             StudentatStop1=null;
-            Stop2Occupied=true;
-            stop1Occupied=false;
             StudentatStop2.tokenTarget=NVfood.position;
         }
+        if (StudentatStop1 == null && Waitingq.Count > 0)
+        {
+        MovetoStop1(Waitingq[0]);
+        ShiftQueue();
+        }
+        Debug.Log($"Stop1:{stop1Occupied} Stop2:{Stop2Occupied} Stop3:{Stop3Occupied}");
     }
     
 }
