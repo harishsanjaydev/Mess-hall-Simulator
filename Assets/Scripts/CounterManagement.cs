@@ -74,7 +74,7 @@ public class CounterManagement : MonoBehaviour
          
         if (StudentatStop3 != null)
         {
-            seat Seatv=seatManager.GetRandomSeat();
+            seat Seatv = seatManager.GetRandomSeat(seatTag);
             if (Seatv != null)
             {
                 Seatv.isOccupied=true;
