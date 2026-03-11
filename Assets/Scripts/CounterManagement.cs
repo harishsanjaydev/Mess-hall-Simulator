@@ -78,10 +78,11 @@ public class CounterManagement : MonoBehaviour
             if (Seatv != null)
             {
                 Seatv.isOccupied=true;
+                StudentatStop3.headingToSeat = true;
                 StudentatStop3.tokenTarget=Seatv.transform.position;
+                StudentatStop3.idleDirection = Seatv.isTopSide ? "IdleDown" : "IdleUp";
             }
             StudentatStop3 = null;
-            StudentatStop3=null;
            
         }
         if (StudentatStop2 != null&& StudentatStop3==null)
@@ -102,6 +103,6 @@ public class CounterManagement : MonoBehaviour
         ShiftQueue();
         }
         Debug.Log($"Stop1:{stop1Occupied} Stop2:{Stop2Occupied} Stop3:{Stop3Occupied}");
-    }
+    }   
     
 }

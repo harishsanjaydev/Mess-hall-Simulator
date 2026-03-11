@@ -52,5 +52,8 @@ TagManager:
   - name: seat
     uniqueID: 3382227707
     locked: 0
+  - name: table
+    uniqueID: 3278547797
+    locked: 0
   m_RenderingLayers:
   - Default

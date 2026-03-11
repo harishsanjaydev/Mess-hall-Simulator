@@ -28,8 +28,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.4874, y: 4.74643, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -82,8 +82,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -104,6 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &1802471606470922449
 GameObject:
@@ -133,8 +134,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9.1904, y: 4.7494297, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -187,8 +188,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -209,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &2906466669753776536
 GameObject:
@@ -238,8 +240,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -12.2614, y: 4.75043, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -292,8 +294,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -314,6 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &3161100523464034418
 GameObject:
@@ -343,8 +346,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -11.030399, y: 4.74743, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -397,8 +400,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -419,6 +422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &4357026279053150346
 GameObject:
@@ -494,8 +498,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.3873997, y: 4.74043, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -548,8 +552,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -570,6 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &5251351072232429345
 GameObject:
@@ -599,8 +604,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.9874, y: 4.74543, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -653,8 +658,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -675,6 +680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &5284389369535582836
 GameObject:
@@ -704,8 +710,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9.8174, y: 4.73443, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -758,8 +764,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -780,6 +786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &5422645868514890279
 GameObject:
@@ -809,8 +816,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -13.5064, y: 4.74343, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -863,8 +870,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -885,6 +892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &5436216527605640642
 GameObject:
@@ -914,8 +922,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.582399, y: 4.74743, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -968,8 +976,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -990,6 +998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &6317711895208001577
 GameObject:
@@ -1019,8 +1028,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -12.8644, y: 4.73443, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1073,8 +1082,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1095,6 +1104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &6574826397341979747
 GameObject:
@@ -1124,8 +1134,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -11.6474, y: 4.7414303, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1178,8 +1188,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1200,6 +1210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &7316195734342058070
 GameObject:
@@ -1229,8 +1240,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10.403399, y: 4.7424297, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1283,8 +1294,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1305,6 +1316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &7976644125395259793
 GameObject:
@@ -1334,8 +1346,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.1433997, y: 4.7484303, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1388,8 +1400,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1410,6 +1422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1 &8070186380302276247
 GameObject:
@@ -1439,8 +1452,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.7753997, y: 4.7424297, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 0.52}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5007455885371179497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1493,8 +1506,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.26415092, g: 0.23549303, b: 0.23549303, a: 1}
+  m_Sprite: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1515,6 +1528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
 --- !u!1001 &5845646402158077291
 PrefabInstance:
@@ -1527,6 +1541,14 @@ PrefabInstance:
     - target: {fileID: 878592721256052830, guid: 8f0a2616171335087ab5b850166479b3, type: 3}
       propertyPath: m_Name
       value: seating
+      objectReference: {fileID: 0}
+    - target: {fileID: 5456644206502838543, guid: 8f0a2616171335087ab5b850166479b3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5456644206502838543, guid: 8f0a2616171335087ab5b850166479b3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5456644206502838543, guid: 8f0a2616171335087ab5b850166479b3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1568,6 +1590,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5456644206502838543, guid: 8f0a2616171335087ab5b850166479b3, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847841375777025277, guid: 8f0a2616171335087ab5b850166479b3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3304129459629687800, guid: f2872d99e0d858643a0a068ea342367a, type: 3}
+    - target: {fileID: 5847841375777025277, guid: 8f0a2616171335087ab5b850166479b3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847841375777025277, guid: 8f0a2616171335087ab5b850166479b3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847841375777025277, guid: 8f0a2616171335087ab5b850166479b3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1598,4 +1640,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9906b891b723b52588f590ec94a45f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::seat
+  isUnderFan: 0
   isOccupied: 0
