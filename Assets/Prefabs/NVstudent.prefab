@@ -79,8 +79,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -912739589
-  m_SortingLayer: 3
+  m_SortingLayerID: -814054437
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6701479002244332668, guid: 10e577c51a536da4fa57f7121573e708, type: 3}
@@ -105,12 +105,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f21fff60a3c030afa8d53d196a964a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::student
+  bin: {x: 0, y: 0, z: 0}
+  exitPoint: {x: 0, y: 0, z: 0}
+  eatDuration: 10
   studentType: 1
   speed: 10
   tokenTarget: {x: 0, y: 0, z: 0}
   qManager: {fileID: 0}
   CManager: {fileID: 0}
   isCutter: 0
+  isSeated: 0
+  idleDirection: IdleUp
+  headingToSeat: 0
 --- !u!95 &5002371365315233935
 Animator:
   serializedVersion: 7

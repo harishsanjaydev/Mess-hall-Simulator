@@ -9,6 +9,9 @@
         [SerializeField]public Transform nonVegTokenQueue;
         public QueueManager qManager;
         private float timer=0;
+        public Transform vegbin;
+        public Transform Nonvegbin;
+        public Transform exitPoint;
        
         
         void Start()
@@ -29,6 +32,8 @@
                 student.qManager=qManager;
                 bool isCutter = Random.value < 0.1f; // 10% chance
                 student.isCutter = isCutter;
+                student.bin = studentType == Student.StudentType.Veg ? vegbin.position : Nonvegbin.position;
+                student.exitPoint = exitPoint.position;
                 timer=0;
             }
             

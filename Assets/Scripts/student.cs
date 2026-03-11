@@ -2,6 +2,11 @@
 
     public class Student : MonoBehaviour
     {
+        public Vector3 bin;
+        public Vector3 exitPoint;
+        private float eatTimer = 0f;
+        public float eatDuration = 10f;
+        private bool isLeaving = false;
         private Animator animator;
         public enum StudentType { Veg, NonVeg }
         public StudentType studentType;
@@ -17,6 +22,7 @@
         private SpriteRenderer sr;
         public string idleDirection = "IdleUp";
         public bool headingToSeat = false;
+        
         void Start()
         {
             animator=GetComponent<Animator>();
@@ -30,6 +36,17 @@
         // Update is called once per frame
         void Update()
         {
+        if (isLeaving && Vector3.Distance(transform.position, bin) < 0.1f)
+        {
+            isLeaving=false;
+            tokenTarget=exitPoint;
+        }
+        if(!isLeaving&&hasJoinedCounter&& !isSeated && !headingToSeat&&
+        Vector3.Distance(transform.position, exitPoint) < 0.1f)
+        {
+            Destroy(gameObject);
+        }
+            
             transform.position = Vector3.MoveTowards(
             transform.position,
             tokenTarget,
@@ -51,6 +68,16 @@
             headingToSeat = false;
             }
             UpdateAnimation();
+        if (isSeated)
+        {
+            eatTimer+=Time.deltaTime;
+            if (eatTimer >= eatDuration)
+            {
+                isSeated=false;
+                isLeaving=true;
+                tokenTarget=bin;
+            }
+        }
 
         }
         void UpdateAnimation()

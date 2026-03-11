@@ -55,5 +55,8 @@ TagManager:
   - name: table
     uniqueID: 3278547797
     locked: 0
+  - name: stuedent
+    uniqueID: 3480912859
+    locked: 0
   m_RenderingLayers:
   - Default
